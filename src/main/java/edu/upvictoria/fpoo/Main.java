@@ -1,6 +1,7 @@
 package edu.upvictoria.fpoo;
 
 import edu.upvictoria.fpoo.EstructurasSelectivas.*;
+import edu.upvictoria.fpoo.EstructurasRepetitivas.*;
 
 
 import java.io.BufferedReader;
@@ -203,43 +204,51 @@ public class Main {
                         System.out.println(" 8.Imprimir numeros del 1 al 100");
                         System.out.println(" 9.N numeros de sucesion de Fibonacci");
                         System.out.println(" 10.Sueldo total");
-                        System.out.println(" 11.Carretera");
-                        System.out.println(" 12.Tiki Taka");
-                        System.out.println(" 13.Producto");
-                        System.out.println(" 14.Pago a sus empleados");
-                        System.out.println(" 15.Horas trabajadas");
-                        System.out.println(" 16.El mandilon");
-                        System.out.println(" 17.Salario 6 anios");
-                        System.out.println(" 18.Hamburguesas");
-                        System.out.println(" 19.N cantidades pt. 2");
-                        System.out.println(" 20.Focos de colores");
-                        System.out.println(" 21.Ahorro diario");
-                        System.out.println(" 22.Ciclo repite & Ciclo Desde");
-                        System.out.println(" 23.Ciclo Mientras & Ciclo Desde");
-                        System.out.println(" 24.Pago de N articulos");
-                        System.out.println(" 25.Banco");
-                        System.out.println(" 26.Edad promedio");
-                        System.out.println(" 27.Funcion exponencial");
-                        System.out.println(" 28.Almacen");
-                        System.out.println(" 29.Vendedor");
-                        System.out.println(" 30.Calificaciones");
-                        System.out.println(" 31.Sueldo mensual");
-                        System.out.println(" 32.Numeros naturales");
-                        System.out.println(" 33.Tabla de multiplicar");
-                        System.out.println(" 34.1961");
-                        System.out.println(" 35.Vehiculos");
-                        System.out.println(" 36.Funcion seno del angulo");
-                        System.out.println(" 37.Dinero en monedero");
-                        System.out.println(" 38.Bandido de peluche");
-                        System.out.println(" 39.Regresar al menu");
+                        System.out.println(" 11.Regresar al menu");
                         Lectura = buffer.readLine();
                         int ejercicio = Integer.parseInt(Lectura);
                         switch (ejercicio) {
                             case 1:
+                                Ejercicios1.E1();
+                                Thread.sleep(2000);
                                 break;
                             case 2:
+                                Ejercicios2.E2();
+                                Thread.sleep(2000);
                                 break;
-                            case 39:
+                            case 3:
+                                Ejercicios3.E3();
+                                Thread.sleep(2000);
+                                break;
+                            case 4:
+                                Ejercicios4.E4();
+                                Thread.sleep(2000);
+                                break;
+                            case 5:
+                                Ejercicios5.E5();
+                                Thread.sleep(2000);
+                                break;
+                            case 6:
+                                Ejercicios6.E6();
+                                Thread.sleep(2000);
+                                break;
+                            case 7:
+                                Ejercicios7.E7();
+                                Thread.sleep(2000);
+                                break;
+                            case 8:
+                                Ejercicios8.E8();
+                                Thread.sleep(2000);
+                                break;
+                            case 9:
+                                Ejercicios9.E9();
+                                Thread.sleep(2000);
+                                break;
+                            case 10:
+                                Ejercicios10.E10();
+                                Thread.sleep(2000);
+                                break;
+                            case 11:
                                 b = false;
                                 break;
                             default:
@@ -247,7 +256,6 @@ public class Main {
                                 break;
                         }
                     }
-
                     break;
                 case 3:
                     while (b) {
@@ -263,27 +271,6 @@ public class Main {
                         System.out.println(" 9.Ventas");
                         System.out.println(" 10.Matriz");
                         System.out.println(" 11.Matriz transpuesta");
-                        System.out.println(" 12.Dos matrices");
-                        System.out.println(" 13.Matriz pt. 2");
-                        System.out.println(" 14.Multiplicacion matrices");
-                        System.out.println(" 15.Matriz cuadrada");
-                        System.out.println(" 16.Nombres y edades");
-                        System.out.println(" 17.MOdificacion del 22");
-                        System.out.println(" 18.Lectura de vector");
-                        System.out.println(" 19.Arreglo");
-                        System.out.println(" 20.Dos vectores");
-                        System.out.println(" 21.Dos matrices cuadradas");
-                        System.out.println(" 22.Matriz definida");
-                        System.out.println(" 23.Cien elementos");
-                        System.out.println(" 24.Magnitud");
-                        System.out.println(" 25.Elementos negativos");
-                        System.out.println(" 26.Producto de dos vectores");
-                        System.out.println(" 27.Choferes");
-                        System.out.println(" 28.Identificacion de negativo");
-                        System.out.println(" 29.Matriz con leida");
-                        System.out.println(" 30.Multiplicacion en diagonal");
-                        System.out.println(" 31.Cantidad de pares e impares");
-                        System.out.println(" 32.Regresar al menu");
                         Lectura = buffer.readLine();
                         int ejercicio = Integer.parseInt(Lectura);
                         switch (ejercicio) {
